@@ -15,11 +15,11 @@ def addcontact():
 def savecontact():
 	#Saving contacts
 	pickle.dump(ab, open("ab_dumb.p", "wb"))
-def addedcontact():
+'''def addedcontact():
 	#The contact that was added
-	print("Added to the contact list ", name)
+	print("Added to the contact list ", name)'''
 
 addcontact()
 contactlist()
-addedcontact()
+#addedcontact()
 savecontact()
